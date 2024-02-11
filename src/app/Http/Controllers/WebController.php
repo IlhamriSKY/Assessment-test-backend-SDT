@@ -11,9 +11,8 @@ class WebController extends Controller
 
     public function index(): View
     {
-        // $title = "Home";
-        // return view('frontend.home', compact('title'));
-        redirect('admin.login');
+        $title = "Home";
+        return view('frontend.home', compact('title'));
     }
     public function about(): View
     {

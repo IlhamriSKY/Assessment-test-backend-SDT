@@ -20,7 +20,7 @@ class RedirectToLogin
         $general = GeneralSetting::first();
         if ($general->landing_page=="false") {
             return redirect(route('login'));
-           
+
         }
         return $next($request);
     }

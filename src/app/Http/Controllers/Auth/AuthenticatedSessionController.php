@@ -19,10 +19,11 @@ class AuthenticatedSessionController extends Controller
      *
      * @return View
      */
-    public function create(): View
+    public function create()
     {
+
         $title = "User Login";
-        return view('user.auth.login', compact('title'));
+        return redirect('admin');
     }
 
     /**
