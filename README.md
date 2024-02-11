@@ -7,8 +7,8 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the Repository
 Clone this repository:
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/IlhamriSKY/Assessment-test-backend-SDT.git
+cd Assessment-test-backend-SDT
 ```
 
 ### 2. Configure Environment Variables
