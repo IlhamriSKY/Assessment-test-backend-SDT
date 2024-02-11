@@ -11,8 +11,9 @@ class WebController extends Controller
 
     public function index(): View
     {
-        $title = "Home";
-        return view('frontend.home', compact('title'));
+        // $title = "Home";
+        // return view('frontend.home', compact('title'));
+        redirect('admin.login');
     }
     public function about(): View
     {
@@ -34,7 +35,7 @@ class WebController extends Controller
         $title = "Faq";
         return view('frontend.pages.faq', compact('title'));
     }
-  
+
 
 
     public function pages($key , $id): View
