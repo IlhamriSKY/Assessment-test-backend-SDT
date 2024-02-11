@@ -49,7 +49,10 @@ Password: admin
 */2 * * * * curl -s http://localhost:8000/cron/run
 ```
 
-### 8. check API Documentation
+### 8. Add SMTP GATEWAY
+Open http://localhost:8000/admin/mail/gateways and then fill in the SMTP credentials that are used.
+
+### 9. check API Documentation
 After logging in, navigate to the API documentation section to explore the available APIs:
 
 Visit http://localhost:8000/api/documentation

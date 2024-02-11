@@ -66,8 +66,8 @@
     --header 'Api-key: 40b595e8-4090-4e56-bbe8-c9175511b4b1' \
     --data-raw '{
         "email_group_id": 1,
-        "email": "asdasd@gmail.com",
-        "name": "zzzzzz api",
+        "email": "ilhamriski@unika.ac.id",
+        "name": "Ilham Riski",
         "birthdate": "21/10/1996",
         "city": "Semarang",
         "status": 1
